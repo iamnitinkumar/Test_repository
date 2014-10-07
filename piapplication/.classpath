@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/java-client-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/selenium-server-standalone-2.42.2.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/org.apache.log4j_1.2.13.v200706111418.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/ATUReporter_Selenium_testNG_5.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/jfreechart-1.0.18-demo.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/ATU Reports/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
