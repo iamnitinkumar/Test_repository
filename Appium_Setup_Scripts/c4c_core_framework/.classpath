@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-configuration-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/cssparser-0.9.11.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/htmlunit-2.13.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/htmlunit-core-js-2.13.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/nekohtml-1.9.19.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/phantomjsdriver-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/supaClient.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/C4CSeleniumLibs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+	<classpathentry kind="lib" path="C:/Appium Jars/Selenium/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Appium Jars/Selenium/java-client-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Appium Jars/Selenium/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Appium Jars/Selenium/selenium-server-standalone-2.42.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

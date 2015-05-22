@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>PJH_Performance_Test</groupId>
+	<artifactId>PJH_Performance_Test</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>PJH_Performance_Test</name>
+	<organization>
+		<name>SAP AG</name>
+		<url>http://www.sap.com</url>
+	</organization>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<build>
+	    <plugins>
+			<plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-surefire-plugin</artifactId>
+		        <configuration>
+		        	<source>1.7</source>
+					<target>1.7</target>
+		            <includes>		            	
+		            	<include>**/Top20C4CScenariosPerformanceSuite.class</include>
+		            </includes>
+		        </configuration>
+		    </plugin>
+      </plugins>
+  </build>
+    
+	  <repositories>
+			<repository>
+				<id>3rd-party.releases.maven-central.proxy</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/repositories/3rd-party.releases.maven-central.proxy</url>
+			</repository>
+			<repository>
+				<id>milestones.com.sap.labs.odp</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/repositories/deploy.milestones/</url>
+			</repository>
+			<repository>
+				<id>build.releases.repo</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.releases/</url>
+			</repository>
+			<repository>
+				<id>build.milestones.repo</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.milestones/</url>
+			</repository>
+			<repository>
+				<id>build.snapshots.repo</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.snapshots/</url>
+			</repository>
+		</repositories>
+		<pluginRepositories>
+			<pluginRepository>
+				<id>snapshots.com.sap.labs.odp</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/repositories/deploy.snapshots/</url>
+			</pluginRepository>
+			<pluginRepository>
+				<id>build.releases.repo</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.releases/</url>
+			</pluginRepository>
+			<pluginRepository>
+				<id>build.milestones.repo</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.milestones/</url>
+			</pluginRepository>
+			<pluginRepository>
+				<id>build.snapshots.repo</id>
+				<url>http://nexus.wdf.sap.corp:8081/nexus/content/groups/build.snapshots/</url>
+			</pluginRepository>
+		</pluginRepositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.download.selenium</groupId>
+			<artifactId>selenium-server-standalone</artifactId>
+			<version>2.37.0</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.nw</groupId>
+			<artifactId>supa-client</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+</project>
