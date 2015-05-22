@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/java-client-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/selenium-server-standalone-2.42.2.jar"/>
+	<classpathentry kind="lib" path="D:/SAP/Jars/Appium Jars/Selenium/testng-6.8.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
